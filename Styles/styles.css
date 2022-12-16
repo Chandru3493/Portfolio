@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;440&family=Poppins:wght@400;500;600&display=swap");
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+body {
+  color: #f7fff7;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.header {
+  background-color: #171c28;
+  position: fixed;
+  width: 100%;
+}
+img {
+  width: 300px;
+}
+.content-wrap-top .btn {
+  background: linear-gradient(45deg, #b95ce4, #4f29cd);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.content-wrap-top .btn:hover {
+  background: linear-gradient(45deg, #4f29cd, #b95ce4);
+}
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+h2 {
+  font-size: 45px;
+}
+h1,
+h2 {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  margin: 0;
+}
+.content-wrap-top {
+  background-color: #171c28;
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 15% 0;
+}
+.header span {
+  text-shadow: 1px 0px #ffffff;
+}
+.content-wrap-top a {
+  text-decoration: none;
+}
+.content-wrap-top a:hover {
+  color: white;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.content-wrap a {
+  text-decoration: none;
+}
+.content-wrap a:hover {
+  color: white;
+}
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+header {
+  background: #171c28;
+  color: #f7fff7;
+}
+
+.projects {
+  background: #171c28;
+}
+.projects a {
+  color: #2f3061;
+}
+.projects .btn {
+  color: #f7fff7;
+  background: #2f3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 2px;
+}
+.projects .btn:hover {
+  background: linear-gradient(45deg, #b95ce4, #4f29cd);
+  color: white;
+  border-radius: 5px;
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item h3 {
+  margin-top: 0;
+}
+
+.work-experience {
+  background: #171c28;
+}
+
+.education {
+  background-color: #171c28;
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 10px;
+}
+.education p {
+  width: 60%;
+}
+
+footer {
+  background: #171c28;
+  color: #f7fff7;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  color: #f7fff7;
+  background: #2f3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 3px;
+}
+.contact-list a:hover {
+  background: linear-gradient(45deg, #b95ce4, #4f29cd);
+  padding-bottom: 9px;
+}
+
+@media screen and (min-width: 750px) {
+  header,
+  footer {
+    text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  h1 {
+    font-size: 75px;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
+  h2 {
+    line-height: 1;
+  }
+  .contact-list a {
+    padding: 5px;
+  }
+}
+.header {
+  overflow: hidden;
+  background-color: #171c28;
+  color: white;
+  padding: 8px;
+}
+
+.header a {
+  float: left;
+  text-align: center;
+  padding: 7px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin-left: 25px;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.header a:hover {
+  color: rgb(255, 255, 255);
+  background: #2f3061;
+}
+
+.header-right {
+  float: right;
+}
+
+.header .logo-name {
+  font-family: "Dancing Script", cursive;
+  padding: 0 10px;
+  font-size: 30px;
+  font-weight: 450;
+}
+.content-wrap a {
+  color: white;
+}
+.header-right a {
+  color: white;
+  background-color: #171c28;
+}
+/*dark mode*/
+.dark-mode {
+  background-color: #a7a6a6;
+  color: #000000;
+}
+/*switch*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 32px;
+  margin-left: 30px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(18px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+@media only screen and (max-width: 814px) {
+  .projectNavItem,
+  .InternshipNavItem,
+  .EducationNavItem,
+  .ContactsNavItem {
+    display: none !important;
+  }
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: black;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+#myBtn img {
+  width: 30px;
+  height: 30px;
+}
