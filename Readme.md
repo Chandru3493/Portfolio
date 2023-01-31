@@ -7,10 +7,10 @@ _Built a lightweight and fully responsive portfolio with HTML, CSS, and JavaScri
 ### **_Features :_**
 
 1. _Fully Responsive_
-2. _Auto scrolling_
-3. _One Page Layout_
-4. _Dark mode toggle_
-5. _Valid HTML5 & CSS3_
+2. _Animate On Scroll_
+3. _Auto Scrolling_
+4. _One Page Layout_
+5. _Dark Mode Toggle_
 
 ### **_Screenshot :_**
 
