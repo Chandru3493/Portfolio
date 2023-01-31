@@ -13,6 +13,8 @@
     <script>
       document.addEventListener("contextmenu", (event) => event.preventDefault());
     </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="header" id="navbar">
@@ -23,8 +25,8 @@
         <a href="#education" class="EducationNavItem navItem">Education</a>
         <a href="#content-wrap" class="ContactsNavItem navItem">Contact</a>
         <label class="switch">
-          <input type="checkbox" checked>
-          <span class="slider round" onclick="myFunction()"></span>
+        <input type="checkbox" checked>
+        <span class="slider round" onclick="myFunction()"></span>
         </label>
       </div>
     </div>
@@ -34,74 +36,93 @@
     <script src="Java Script\AutoScroll.js"></script>
     <header id="header">
       <div class="content-wrap-top" id="content-wrap-top">
-        <h1>CHANDRU R</h1>
-        <h2>Student + Programmer</h2>
-        <p> To become a successful professional in the field of Information Technology by utilizing my skills and enable further personal and professional development and work towards the prosperity of organization. </p>
+        <h1 data-aos="fade-down" data-aos-duration="1000">CHANDRU R</h1>
+        <h2 data-aos="fade-down" data-aos-duration="1500">Student + Programmer</h2>
+        <p data-aos="fade-down" data-aos-duration="2000"> To become a successful professional in the field of Information Technology by utilizing my skills and enable further personal and professional development and work towards the prosperity of organization. </p>
         <br />
-        <a class="btn" href="https://drive.google.com/file/d/1Bl8lksUXqfOs38PV-kCxOPO-6ehVoEfi/view" target="_blank">View Resume</a>
+        <a class="btn" href="https://drive.google.com/file/d/1uERzYWhDLmfunCkam2AJgM0Hs19lMFE5/view" target="_blank">View Resume</a>
       </div>
     </header>
     <!--Academic projects -->
     <section class="projects" id="projects">
       <div class="content-wrap divider">
-        <h2>Academic projects</h2>
+        <h2 data-aos="fade-left"
+          data-aos-duration="500">Academic projects</h2>
         <!-- Project 1 -->
-        <section class="project-item">
+        <section class="project-item" data-aos="fade-up" data-aos-duration="1000">
           <img src="Images\Project-1.png" href="Images\Project-1.png" alt="GUI screenshot" />
           <h3>POLICE RECORD MANAGEMENT</h3>
           <p> Developed a graphical use interface application using java swing. Connected the GUI to MySQL with the help of JDBC driver. Added features like insert, search, update and delete the records stored in database using GUI. </p>
           <a class="btn" href="https://github.com/Chandru3493/Police-Record-Management" target="_blank">GitHub/Police-Record-Management</a>
         </section>
         <!-- Project 2 -->
-        <section class="project-item">
-          <img src="Images\Project-2.png" alt="Website screenshot" height="168" />
+        <section class="project-item" data-aos="fade-up" data-aos-duration="1000">
+          <img src="Images\Project-2.png" alt="Website screenshot" height="168"/>
           <h3>CRYPTOCURRENCY WEBSITE</h3>
           <p>Developed a responsive cryptocurrency website using HTML, CSS, JavaScript and API. The website shows the real-time price of the cryptocurrency and also the price chart of the cryptocurrency.
           </p>
           <a class="btn" href="https://github.com/Chandru3493/Cryptocurrency-Website" target="_blank">GitHub/Cryptocurrency-Website</a>
         </section>
-        <!-- Project 2 -->
-        <section class="project-item">
-          <img src="Images\Project-3.png" alt="Console screenshot" height="168" />
+        <!-- Project 3 -->
+        <section class="project-item" data-aos="fade-up" data-aos-duration="1000">
+          <img src="Images\Project-3.png" alt="Console screenshot" height="168"/>
           <h3>TAXI BOOKING APPLICATION</h3>
           <p> Developed a real-time console application using Java by implementing OOPs. Added features like taxi reservation, displaying the customer history and gross income of the taxi. </p>
           <a class="btn" href="https://github.com/Chandru3493/Taxi-Booking-Application" target="_blank">GitHub/Taxi-Booking-Application</a>
         </section>
       </div>
     </section>
-    <!--WORK EXPERIENCE-->
-    <section class="work-experience" id="work-experience">
-      <div class="content-wrap item-details divider">
-        <h2>Internship Experience</h2>
+    <!--Internship EXPERIENCE-->
+    <section class="work-experience" id="work-experience" >
+      <div class="content-wrap item-details divider" >
+        <h2 data-aos="fade-left"
+          data-aos-duration="500">Internship Experience</h2>
         <!-- Job 1 -->
-        <section class="job-item">
+        <section class="job-item" data-aos="fade-left"
+          data-aos-duration="1000">
           <div class="job-details">
             <h3>National Small Industries Corporation Ltd.</h3>
-            <p>Machine learning with python</p>
+            <p>Android Development</p>
             <p>Aug 2021 - Sep 2021</p>
           </div>
           <div class="job-summary">
-            <p> Gained knowledge about supervised learning algorithms like Decision tree, Random forest and Neural network. Worked hands-on using python modules like Pandas, Matplotlib, and NumPy. </p>
+            <p>Successfully developed 5 basic Android applications using Java and Android Studio. Acquired skills in using Android Studio's built-in emulator and debugging tools for testing and troubleshooting.
+            <p/>
+          </div>
+        </section>
+        <section class="job-item" data-aos="fade-left"
+          data-aos-duration="1000">
+          <div class="job-details">
+            <h3>Entrepreneurship Network</h3>
+            <p>Frontend Development</p>
+            <p>Jan 2021 - Feb 2021</p>
+          </div>
+          <div class="job-summary">
+            <p>Implemented Search Engine Optimization (SEO) strategies for an existing webpage to improved search rankings. Worked closely with a UI Designer to create a fully responsive webpage.</p>
           </div>
         </section>
       </div>
     </section>
     <!--EDUCATION & CERTIFICATIONS-->
     <section class="education" id="education">
-      <div class="content-wrap item-details">
-        <h2>Education</h2>
-        <section>
-          <h3>St. Joseph’s Institute of Technology (83%)</h3>
+      <div class="content-wrap item-details" >
+        <h2 data-aos="fade-left"
+          data-aos-duration="500">Education</h2>
+        <section data-aos="fade-up"
+          data-aos-duration="1000">
+          <h3>St. Joseph’s Institute of Technology</h3>
           <p>B. Tech, Information Technology,</p>
           <p>(2020-2024)</p>
         </section>
-        <section>
-          <h3>Zion Matriculation Higher Secondary School (74%)</h3>
+        <section data-aos="fade-up"
+          data-aos-duration="1100">
+          <h3>Zion Matriculation Higher Secondary School</h3>
           <p>HSC</p>
           <p>(2019-2020)</p>
         </section>
-        <section>
-          <h3>Zion Matriculation Higher Secondary School (76%)</h3>
+        <section data-aos="fade-up"
+          data-aos-duration="1200">
+          <h3>Zion Matriculation Higher Secondary School</h3>
           <p>SSLC</p>
           <p>(2017-2018)</p>
         </section>
@@ -110,27 +131,37 @@
     <!--CONTACT INFO / SOCIAL MEDIA-->
     <footer id="footer">
       <div class="content-wrap" id="content-wrap">
-        <h2>Keep in Touch!</h2>
-        <h2 style="font-size:x-large;">Chennai, India</h2>
-        <ul class="contact-list">
+        <h2 data-aos="fade-down-left"
+          data-aos-duration="500">Keep in Touch!</h2>
+        <h2 style="font-size:x-large;" data-aos="fade-down-left"
+          data-aos-duration="750">Chennai, India</h2>
+        <ul class="contact-list" data-aos="fade-down-left"
+          data-aos-duration="1000">
           <li>
-            <a href="mailto:rchandru3493@gmail.com">rchandru3493@gmail.com</a>
+            <a style="color: white" class="fa fa-envelope" href="mailto://rchandru3493@gmail.com" target="_blank"></a>
           </li>
           <li>
-            <a href="https://github.com/Chandru3493" target="_blank">GitHub</a>
+            <a style="color: white" class="fa fa-github" href="https://github.com/Chandru3493" target="_blank"></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/chandru3493/" target="_blank">LinkedIn</a>
+            <a style="color: white" class="fa fa-linkedin" href="https://www.linkedin.com/in/chandru3493/" target="_blank"></a>
           </li>
           <li>
-            <a href="https://twitter.com/CHANDRU4221?t=fr30vtbClgxlMZVqfG9uAQ&s=08" target="_blank">Twitter</a>
+            <a style="color: white" class="fa fa-twitter" href="https://twitter.com/CHANDRU4221?t=fr30vtbClgxlMZVqfG9uAQ&s=08" target="_blank"></a>
           </li>
           <li>
-            <a href="https://www.facebook.com/CHANDRU3493" target="_blank">Facebook</a>
+            <a style="color: white" class="fa fa-instagram" href="https://www.instagram.com/chandru_3494/" target="_blank"></a>
+          </li>
+          <li>
+            <a style="color: white" class="fa fa-facebook" href="https://www.facebook.com/CHANDRU3493" target="_blank"></a>
           </li>
         </ul>
       </div>
     </footer>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
