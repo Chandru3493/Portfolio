@@ -249,7 +249,7 @@ footer {
 }
 /*dark mode*/
 .dark-mode {
-  background-color: rgb(255, 255, 255);
+  background-color: #f5d7fe;
   color: #000000;
 }
 /*switch*/
